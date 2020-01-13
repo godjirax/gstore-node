@@ -13,13 +13,7 @@
         "mocha"
     ],
     "rules": {
-        "indent": [
-            "error",
-            4,
-            {
-                "SwitchCase": 1
-            }
-        ],
+        "indent": "off",
         "import/no-extraneous-dependencies": [
             "error",
             {
@@ -34,6 +28,7 @@
                 "functions": false
             }
         ],
+        "prefer-arrow-callback": "off",
         "prefer-rest-params": "off",
         "prefer-spread": "off",
         "no-restricted-globals": "off",
